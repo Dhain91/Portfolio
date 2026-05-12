@@ -60,23 +60,23 @@ export const portfolioData: {
         "Document Storage"
       ],
       images: [
-        "/project-gallery/freelance-one/1.png",
-        "/project-gallery/freelance-one/2.png",
-        "/project-gallery/freelance-one/3.png",
-        "/project-gallery/freelance-one/4.png",
-        "/project-gallery/freelance-one/5.png",
-        "/project-gallery/freelance-one/6.png",
-        "/project-gallery/freelance-one/7.png",
-        "/project-gallery/freelance-one/8.png",
-        "/project-gallery/freelance-one/9.png",
-        "/project-gallery/freelance-one/10.png",
-        "/project-gallery/freelance-one/11.png",
-        "/project-gallery/freelance-one/12.png",
-        "/project-gallery/freelance-one/13.png",
-        "/project-gallery/freelance-one/14.png",
-        "/project-gallery/freelance-one/15.png",
-        "/project-gallery/freelance-one/16.png",
-        "/project-gallery/freelance-one/17.png",
+        "/Project-Gallery/freelance-one/1.png",
+        "/Project-Gallery/freelance-one/2.png",
+        "/Project-Gallery/freelance-one/3.png",
+        "/Project-Gallery/freelance-one/4.png",
+        "/Project-Gallery/freelance-one/5.png",
+        "/Project-Gallery/freelance-one/6.png",
+        "/Project-Gallery/freelance-one/7.png",
+        "/Project-Gallery/freelance-one/8.png",
+        "/Project-Gallery/freelance-one/9.png",
+        "/Project-Gallery/freelance-one/10.png",
+        "/Project-Gallery/freelance-one/11.png",
+        "/Project-Gallery/freelance-one/12.png",
+        "/Project-Gallery/freelance-one/13.png",
+        "/Project-Gallery/freelance-one/14.png",
+        "/Project-Gallery/freelance-one/15.png",
+        "/Project-Gallery/freelance-one/16.png",
+        "/Project-Gallery/freelance-one/17.png",
 
       ],
       detailedFunctionality: "The application leverages Electron's IPC (Inter-Process Communication) to bridge a high-performance Vue 3 frontend with a local SQLite database. This ensures that all operational data—from container tracking numbers to financial receipts—is processed instantly and securely on the user's machine. It features a custom calculation engine for demurrage, local backup options, and a unified dashboard that tracks shipments through multiple stages: Quotation, Transit, Customs, and Delivery.\n\n• Dashboard & Analytics: Provides a \"Cargo Overview\" and real-time status updates on active shipments and pending actions.\n• Project Workflow:\n  - Tracks duty-free status and links projects to specific customers.\n  - Manages \"Storage Folders\" for project-related documents.\n• Shipment & Container Deep-Dive:\n  - Phase Tracking: Containers move through stages like Transit, MyBandharu Booking, and Customs Release.\n  - Clearance Logic: Supports different clearance methods (e.g., \"Destuffed\").\n  - Demurrage Calculation: Tracks discharge dates and alerts users based on configurable \"Orange\" and \"Red\" alert thresholds (defaulting to 10 and 5 days).\n• Delivery Logistics:\n  - Generates and tracks Delivery Notes (DN).\n  - Monitors DN status: Signed, Mailed, Invoiced, and Paid.\n• Asset Management: Tracking of license plates, current locations, and operational status for vehicles and vessels.\n• System Settings: Allows configuration of default storage sites and global alert thresholds.",
@@ -97,10 +97,10 @@ export const portfolioData: {
         "One-Click Copy"
       ],
       images: [
-        "/project-gallery/personal-one/1.png",
-        "/project-gallery/personal-one/2.png",
-        "/project-gallery/personal-one/3.png",
-        "/project-gallery/personal-one/4.png"
+        "/Project-Gallery/personal-one/1.png",
+        "/Project-Gallery/personal-one/2.png",
+        "/Project-Gallery/personal-one/3.png",
+        "/Project-Gallery/personal-one/4.png"
       ],
       detailedFunctionality: "Built with Laravel 13 and Vue 3 via Inertia.js, Kuda provides a seamless Single Page Application experience for link management. The backend uses Eloquent ORM to manage link ownership and real-time click tracking. Every redirect event is logged and indexed, providing users with immediate engagement analytics. The frontend features a TypeScript-powered dashboard with asynchronous clipboard integration and a responsive layout designed with Tailwind CSS, ensuring a professional and high-performance user experience.",
 
@@ -120,11 +120,11 @@ export const portfolioData: {
         "Nuanced Risk Scoring"
       ],
       images: [
-        "/project-gallery/personal-two/1.png",
-        "/project-gallery/personal-two/2.png",
-        "/project-gallery/personal-two/3.png",
-        "/project-gallery/personal-two/4.png",
-        "/project-gallery/personal-two/5.png"
+        "/Project-Gallery/personal-two/1.png",
+        "/Project-Gallery/personal-two/2.png",
+        "/Project-Gallery/personal-two/3.png",
+        "/Project-Gallery/personal-two/4.png",
+        "/Project-Gallery/personal-two/5.png"
       ],
       detailedFunctionality: "Phishing Shield utilizes a Python FastAPI backend to serve machine learning predictions to a responsive Vue 3 frontend. The system extracts 30+ lexical features from a submitted URL, such as special character density, obfuscation markers, and digit-to-letter ratios. These features are then evaluated by a pre-trained Scikit-Learn model. To ensure high speed and accuracy, the app implements a global whitelist guard that immediately validates known trusted domains before initiating the more compute-intensive AI analysis.",
       techStack: ["Vue 3", "Tailwind CSS", "Axios", "Python", "FastAPI", "Uvicorn", "Pydantic", "scikit-learn", "joblib", "pandas", "Jupyter Notebook"],
